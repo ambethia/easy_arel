@@ -15,11 +15,8 @@ module EasyArel
     end
   end
 
-  module InstanceMethods
-
-    def _
-      self.class._
-    end
+  def _
+    self.class._
   end
 end
 
